@@ -8,8 +8,8 @@ class Button
     boolean leftClick;
     Button(int xPos, int yPos, int width, int height)
     {
-        localXpos=xPos;
-        localYpos=yPos;
+            localXpos=xPos;
+            localYpos=yPos;
         localHeight=height;
         localWidth=width;
         rightClick=false;
