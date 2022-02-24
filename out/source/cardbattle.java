@@ -709,7 +709,7 @@ class SpriteAnimation
     }
     public void Initialize(int sizeX, int sizeY)
     {
-        for(int i=0; i<frameNumberAll; i++)
+        for(int i=0; i<frameNumberAll; i=i+1)
         {
             PImage temp;
             temp=loadImage(nameAll+""+i+".png");
